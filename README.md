@@ -7,13 +7,14 @@ Answer: $("div#john .important").classList.add(“shape”)
 # Question:  Explain JWT in approx and provide its top 3 benefits.
 
 Answer: JWT(JSON Web Token) is an open standard used to share information between two parties securely — a client and a server. In most cases, it’s an encoded JSON containing a set of claims and a signature. It’s usually used in the context of other authentication mechanisms like OAuth, and OpenID to share user-related information. It’s also a popular way to authenticate/authorize users in a microservice architecture.
+
 Benefit of JWT
 
-JWT is a stateless authentication mechanism as the user state is never saved in the database. As JWTs are self-contained, all the necessary information is there, reducing the need of going back and forward to the database. With JWT we don't need to query the database to authenticate the user for every API call.
+1. JWT is a stateless authentication mechanism as the user state is never saved in the database. As JWTs are self-contained, all the necessary information is there, reducing the need of going back and forward to the database. With JWT we don't need to query the database to authenticate the user for every API call.
  
-JWT is compact. Because of its size, it can be sent through an URL, POST parameter, or inside an HTTP header.
+2. JWT is compact. Because of its size, it can be sent through an URL, POST parameter, or inside an HTTP header.
  
-We can authorize only the requests we wish to authorize. Cookies are sent for every single request.
+3. We can authorize only the requests we wish to authorize. Cookies are sent for every single request.
  
 # Question: Given a number x, finds out if it is a prime number or not, use javascript and find out the difference between the Next prime number after x and x.
 
